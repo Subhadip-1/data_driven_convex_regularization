@@ -18,4 +18,4 @@ If you use these scripts in your research, consider citing the paper:
 * Run `python simulate_projections_for_train_and_test.py` to simulate the projection data and the FBP solutions. 
 * Train a convex regularizer by `python train_convex_reg.py`. 
 * Evaluate the model on test slices by running `python eval_convex_reg.py`. 
-* If you want to test the model for a different acquisition geometry, appropriately midify the acquisition parameters in `simulate_projections_for_train_and_test.py`.  
+* If you want to test the model for a different acquisition geometry, appropriately modify the acquisition parameters in `simulate_projections_for_train_and_test.py`.  
