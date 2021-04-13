@@ -14,7 +14,7 @@ If you use these scripts in your research, consider citing the paper:
 ```
 # Steps to run the scripts:
 * The phantoms used in our CT experiments are available here: https://drive.google.com/drive/folders/1SHN-yti3MgLmmW_l0agZRzMVtp0kx6dD?usp=sharing. Download the `.zip` file containing the phantoms, unzip, and put inside the cloned directory.
-* Create a conda environment with the required dependencies by `conda env create -f environment.yml`, and then activate it. 
+* Create a conda environment with the required dependencies by `conda env create -f environment.yml`, and then activate it by `conda activate env_deep_learning`. 
 * Run `python simulate_projections_for_train_and_test.py` to simulate the projection data and the FBP solutions. 
 * Train a convex regularizer by `python train_convex_reg.py`. 
 * Evaluate the model on test slices by running `python eval_convex_reg.py`. 
